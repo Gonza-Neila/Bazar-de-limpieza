@@ -1,0 +1,50 @@
+/* header */
+
+header {
+    overflow: auto;
+    padding: 1rem;
+  }
+  
+  .logo {
+    float: left;
+    margin-top: -1rem;
+  
+    img {
+      max-height: 10rem;
+      vertical-align: middle;
+    }
+  }
+  
+  nav {
+    float: right;
+    line-height: 7rem;
+    background-color: $color-secundario;
+    margin: 0%;
+    padding: 0;
+    width: 91%;
+  
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      margin-left: -3rem;
+  
+      li {
+        display: inline-block;
+        margin-left: 14rem;
+        margin-top: 0rem;
+  
+        a {
+          text-decoration: none;
+          color: $color-negro;
+          font-size: 1rem;
+          font-weight: bold;
+          font-family: Arial, Helvetica, sans-serif;
+  
+          &:hover {
+            color: $color-primario;
+          }
+        }
+      }
+    }
+  }
